@@ -15,6 +15,8 @@ import { BsArrowUpRight, BsGithub } from "react-icons/bs";
 import vnstore1 from "../../assets/vnstore.png";
 import login from "../../assets/login.png";
 import liginprop from "../../assets/liginprop.png";
+import wp from "../../assets/wp.png";
+
 
 const project = [
   {
@@ -88,14 +90,14 @@ const fullstack = [
       "Frontend + Backend",
     realproject: [
       {
-        name: "VN STORE",
+        name: "Wordpress",
         description:
-          "This is my frontend project about Ecomerse website (No Responsive).I make this frondend project by",
-        image: vnstore1,
+          "This is my project in wordpress",
+        image: wp,
         lague: "HTML 5",
         lague1: "CSS 3",
-        liveHr: "https://vannakns.github.io/VN_STORE/",
-        gitHr: "https://github.com/VannakNS/VN_STORE.git",
+        liveHr: "https://inspiretomillion.com/",
+        gitHr: "https://inspiretomillion.com/",
         live: <BsArrowUpRight />,
         github: <BsGithub />,
       },
