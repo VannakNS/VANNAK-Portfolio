@@ -92,7 +92,7 @@ const fullstack = [
       {
         name: "Wordpress",
         description:
-          "This is my project in wordpress",
+          "This is my project in wordpress ",
         image: wp,
         lague: "HTML 5",
         lague1: "CSS 3",
@@ -174,6 +174,7 @@ const Portfolio = () => {
                       <li
                         key={index}
                         className="bg-[#232329] mb-[20px] py-[13px] px-[13px] drop-shadow-lg rounded-xl flex flex-col justify-center items-center lg:items-start gap-1">
+                       <div className="h-[310px] ">
                        <a href={item.liveHr} target="_blank">
                           <img
                             src={item.image}
@@ -181,6 +182,7 @@ const Portfolio = () => {
                             className="rounded-[5px] active:scale-[0.98] hover:scale-[1.02]  duration-500 cursor-pointer"
                           />
                         </a>
+                       </div>
 
                         <h3 className="text-[25px] max-w-[300px] mt-[10px] min-h-[60px] font-extrabold text-left lg:text-left">
                           {item.name}
@@ -246,6 +248,7 @@ const Portfolio = () => {
                       <li
                         key={index}
                         className="bg-[#232329] mb-[20px] py-[13px] px-[13px] drop-shadow-lg rounded-xl flex flex-col justify-center items-center lg:items-start gap-1">
+                       <div className="h-[310px] ">
                        <a href={item.liveHr} target="_blank">
                           <img
                             src={item.image}
@@ -253,6 +256,7 @@ const Portfolio = () => {
                             className="rounded-[5px] active:scale-[0.98] hover:scale-[1.02]  duration-500 cursor-pointer"
                           />
                         </a>
+                       </div>
 
                         <h3 className="text-[25px] max-w-[300px] mt-[10px] min-h-[60px] font-extrabold text-left lg:text-left">
                           {item.name}
@@ -314,18 +318,20 @@ const Portfolio = () => {
                   {fullstack[0].description}
                 </p>
                 <div className="h-[460px] lg:h-[250px] mt-[40px] ">
-                  <ul className="grid grid-cols-1 lg:grid-cols-2 gap-[30px]">
+                  <ul className="grid grid-cols-1 lg:grid-cols-2 gap-[30px] ">
                     {fullstack[0].realproject.map((item, index) => (
                       <li
                         key={index}
                         className="bg-[#232329] mb-[20px] py-[13px] px-[13px] drop-shadow-lg rounded-xl flex flex-col justify-center items-center lg:items-start gap-1">
-                        <a href={item.liveHr} target="_blank">
+                        <div className="h-[310px] ">
+                       <a href={item.liveHr} target="_blank">
                           <img
                             src={item.image}
                             alt="image"
                             className="rounded-[5px] active:scale-[0.98] hover:scale-[1.02]  duration-500 cursor-pointer"
                           />
                         </a>
+                       </div>
 
                         <h3 className="text-[25px] max-w-[300px] mt-[10px] min-h-[60px] font-extrabold text-left lg:text-left">
                           {item.name}
