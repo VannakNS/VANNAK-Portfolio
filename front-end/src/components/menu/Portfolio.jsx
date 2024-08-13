@@ -17,7 +17,6 @@ import login from "../../assets/login.png";
 import liginprop from "../../assets/liginprop.png";
 import wp from "../../assets/wp.png";
 
-
 const project = [
   {
     title: "Frontend project",
@@ -55,8 +54,7 @@ const project = [
 const mini = [
   {
     title: "Mini Project",
-    description:
-      "just small project",
+    description: "just small project",
     realproject: [
       {
         name: "Login",
@@ -86,13 +84,11 @@ const mini = [
 const fullstack = [
   {
     title: "Fullstack project",
-    description:
-      "Frontend + Backend",
+    description: "Frontend + Backend",
     realproject: [
       {
         name: "Wordpress",
-        description:
-          "This is my project in wordpress ",
+        description: "This is my project in wordpress ",
         image: wp,
         lague: "HTML 5",
         lague1: "CSS 3",
@@ -174,15 +170,15 @@ const Portfolio = () => {
                       <li
                         key={index}
                         className="bg-[#232329] mb-[20px] py-[13px] px-[13px] drop-shadow-lg rounded-xl flex flex-col justify-center items-center lg:items-start gap-1">
-                       <div className="h-[310px] ">
-                       <a href={item.liveHr} target="_blank">
-                          <img
-                            src={item.image}
-                            alt="image"
-                            className="rounded-[5px] active:scale-[0.98] hover:scale-[1.02]  duration-500 cursor-pointer"
-                          />
-                        </a>
-                       </div>
+                        <div className="lg:h-[310px] md:h-auto ">
+                          <a href={item.liveHr} target="_blank">
+                            <img
+                              src={item.image}
+                              alt="image"
+                              className="rounded-[5px] active:scale-[0.98] hover:scale-[1.02]  duration-500 cursor-pointer"
+                            />
+                          </a>
+                        </div>
 
                         <h3 className="text-[25px] max-w-[300px] mt-[10px] min-h-[60px] font-extrabold text-left lg:text-left">
                           {item.name}
@@ -248,15 +244,15 @@ const Portfolio = () => {
                       <li
                         key={index}
                         className="bg-[#232329] mb-[20px] py-[13px] px-[13px] drop-shadow-lg rounded-xl flex flex-col justify-center items-center lg:items-start gap-1">
-                       <div className="h-[310px] ">
-                       <a href={item.liveHr} target="_blank">
-                          <img
-                            src={item.image}
-                            alt="image"
-                            className="rounded-[5px] active:scale-[0.98] hover:scale-[1.02]  duration-500 cursor-pointer"
-                          />
-                        </a>
-                       </div>
+                        <div className="lg:h-[310px] md:h-auto ">
+                          <a href={item.liveHr} target="_blank">
+                            <img
+                              src={item.image}
+                              alt="image"
+                              className="rounded-[5px] active:scale-[0.98] hover:scale-[1.02]  duration-500 cursor-pointer"
+                            />
+                          </a>
+                        </div>
 
                         <h3 className="text-[25px] max-w-[300px] mt-[10px] min-h-[60px] font-extrabold text-left lg:text-left">
                           {item.name}
@@ -323,15 +319,15 @@ const Portfolio = () => {
                       <li
                         key={index}
                         className="bg-[#232329] mb-[20px] py-[13px] px-[13px] drop-shadow-lg rounded-xl flex flex-col justify-center items-center lg:items-start gap-1">
-                        <div className="h-[310px] ">
-                       <a href={item.liveHr} target="_blank">
-                          <img
-                            src={item.image}
-                            alt="image"
-                            className="rounded-[5px] active:scale-[0.98] hover:scale-[1.02]  duration-500 cursor-pointer"
-                          />
-                        </a>
-                       </div>
+                        <div className="lg:h-[310px] md:h-auto">
+                          <a href={item.liveHr} target="_blank">
+                            <img
+                              src={item.image}
+                              alt="image"
+                              className="rounded-[5px] active:scale-[0.98] hover:scale-[1.02]  duration-500 cursor-pointer"
+                            />
+                          </a>
+                        </div>
 
                         <h3 className="text-[25px] max-w-[300px] mt-[10px] min-h-[60px] font-extrabold text-left lg:text-left">
                           {item.name}
