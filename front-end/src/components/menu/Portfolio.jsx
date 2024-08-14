@@ -15,7 +15,8 @@ import { BsArrowUpRight, BsGithub } from "react-icons/bs";
 import vnstore1 from "../../assets/vnstore.png";
 import login from "../../assets/login.png";
 import liginprop from "../../assets/liginprop.png";
-import wp from "../../assets/wp.png";
+import wordpress from "../../assets/wp.png";
+import coursemg from "../../assets/cousremg.png";
 
 const project = [
   {
@@ -89,8 +90,8 @@ const fullstack = [
       {
         name: "Wordpress",
         description: "This is my project in wordpress ",
-        image: wp,
-        lague: "HTML 5",
+        image: wordpress,
+        lague: "Theme",
         lague1: "CSS 3",
         liveHr: "https://inspiretomillion.com/",
         gitHr: "https://inspiretomillion.com/",
@@ -98,14 +99,17 @@ const fullstack = [
         github: <BsGithub />,
       },
       {
-        name: "project 01",
-        description:
-          "This is my frontend project about Ecomerse website (No Responsive).I make this frondend project by",
-        image: vnstore1,
-        lague: "HTML 5",
-        lague1: "CSS 3",
-        liveHr: "https://vannakns.github.io/Login_Position/",
-        gitHr: "https://github.com/VannakNS/VN_STORE.git",
+        name: "system managment",
+        description: "In this project, I created a course management system.",
+        image: coursemg,
+        lague: "React with Vite",
+        lague1: "Tailwind",
+        lague2: "AntDesign",
+        lague3: "Node",
+        lague4: "MySQL",
+
+        liveHr: "",
+        gitHr: "",
         live: <BsArrowUpRight />,
         github: <BsGithub />,
       },
@@ -343,6 +347,18 @@ const Portfolio = () => {
                           <p className="text-accent-DEAULT text-[18px] bg-[#27272e] px-2 py-1 rounded-md">
                             {" "}
                             {item.lague1}{" "}
+                          </p>
+                          <p className="text-accent-DEAULT text-[18px] bg-[#27272e] px-2 py-1 rounded-md">
+                            {" "}
+                            {item.lague2}{" "}
+                          </p>
+                          <p className="text-accent-DEAULT text-[18px] bg-[#27272e] px-2 py-1 rounded-md">
+                            {" "}
+                            {item.lague3}{" "}
+                          </p>
+                          <p className="text-accent-DEAULT text-[18px] bg-[#27272e] px-2 py-1 rounded-md">
+                            {" "}
+                            {item.lague4}{" "}
                           </p>
                         </div>
                         <div className="flex gap-2 mt-3 text-left">
