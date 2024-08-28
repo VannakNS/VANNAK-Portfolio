@@ -1,5 +1,5 @@
 import CountUp from "react-countup";
-
+import '@fontsource/jetbrains-mono';
 const states = [
   {
     num: 0,
@@ -21,7 +21,7 @@ const states = [
 const State = () => {
   return (
     <section>
-      <div className="container mx-auto">
+      <div className="container mx-auto font-jetbrains">
         <div className="flex flex-wrap gap-6 max-w-[80vh] mx-auto lg:max-w-none">
           {states.map((item, index) => {
             return (

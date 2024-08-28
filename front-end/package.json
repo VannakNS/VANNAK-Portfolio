@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@fontsource/jetbrains-mono": "^5.0.21",
     "@headlessui/react": "^2.1.2",
     "antd": "^5.20.0",
     "framer-motion": "^11.3.24",

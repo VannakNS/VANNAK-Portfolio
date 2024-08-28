@@ -4,6 +4,7 @@ import { LuDownload } from "react-icons/lu";
 import Socail from "./Socail";
 import Picture from "./Picture";
 import State from "./State";
+import '@fontsource/jetbrains-mono';
 const Home = () => {
   const handleDownload = () => {
     const link = document.createElement("a");
@@ -14,7 +15,7 @@ const Home = () => {
     document.body.removeChild(link);
   };
   return (
-    <section className="max-lg:mx-auto min-xl:mx-auto mx-[11%] max-sm:mx-[2%] h-full lg:mt-[40px] max-2xl:mx-[8%] ">
+    <section className="max-lg:mx-auto min-xl:mx-auto mx-[11%] max-sm:mx-[2%] h-full lg:mt-[40px] max-2xl:mx-[8%] font-jetbrains">
       <div className="flex flex-row max-lg:flex-col  items-center justify-between max-lg:pt-8 max-lg:pb-10">
         <div className="text-center xl:text-left order-2 lg:order-none">
           <span className="text-xl">Software Developer</span>

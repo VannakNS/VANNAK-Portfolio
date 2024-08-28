@@ -1,6 +1,8 @@
 import { motion } from "framer-motion";
 import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
 import {Form} from "antd"
+import '@fontsource/jetbrains-mono';
+
 const info = [
   {
     icon: <FaPhoneAlt />,
@@ -31,7 +33,7 @@ const ContactInfo = () => {
           ease: "easeInOut",
         },
       }}
-      className="py-6"
+      className="py-6 font-jetbrains"
     >
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row gap-[30px]">

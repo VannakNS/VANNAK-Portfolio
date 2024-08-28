@@ -1,5 +1,6 @@
 import React from 'react'
 import { useResolvedPath } from 'react-router-dom'
+import '@fontsource/jetbrains-mono';
 
 const links = [
     {
@@ -30,7 +31,7 @@ const  Nav = () => {
     const pathname = useResolvedPath()
     console.log(pathname)
   return (
-    <nav className='flex gap-8 ' >
+    <nav className='flex gap-8 font-jetbrains' >
         {links.map((item,index) => {
             return <a href={item.path} key={index} className={`${item.path === pathname.pathname && "text-accent-DEAULT border-b-2 border-bcl "}capitalize font-medium text hover:text-accent-hover  transition-all`}> {item.name} </a>
         })}

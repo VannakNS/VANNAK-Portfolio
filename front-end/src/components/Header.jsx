@@ -2,10 +2,11 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import Nav from './Nav'
 import MobileMenu from './menu/MobileMenu'
+import '@fontsource/jetbrains-mono';
 
 function Header() {
   return (
-    <header className='py-8 max-xl:py-12 max-2xl:mx-[6%] '>
+    <header className='py-8 max-xl:py-12 max-2xl:mx-[6%] font-jetbrains'>
         {/* Logo */}
         <div className="container mt-[15px] max-auto flex justify-between max-lg:mt-[-30px]">
             <a href="/" className='items-center'>

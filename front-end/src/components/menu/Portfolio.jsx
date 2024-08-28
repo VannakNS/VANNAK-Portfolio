@@ -3,6 +3,8 @@ import { motion } from "framer-motion";
 import { Tab } from "@headlessui/react";
 import { SiAntdesign, SiTailwindcss, SiVite, SiLabview } from "react-icons/si";
 import { GrMysql } from "react-icons/gr";
+import '@fontsource/jetbrains-mono';
+
 import {
   FaHtml5,
   FaCss3,
@@ -147,7 +149,7 @@ const Portfolio = () => {
           ease: "easeInOut",
         },
       }}
-      className="min-h-[80vh] flex justify-center lg:mx-[7%] py-12 lg:py-0 mt-[20px] lg:mt-[70px] mb-[90px]">
+      className="min-h-[80vh] flex justify-center lg:mx-[7%] py-12 lg:py-0 mt-[20px] lg:mt-[70px] mb-[90px] font-jetbrains">
       <div className="container mx-auto">
         <Tab.Group className="flex max-sm:block max-md:block max-lg:block lg:flex-row gap-[60px]">
           <Tab.List className="flex flex-col w-full max-w-[290px] mx-auto lg:mx-0 gap-6 text-primary">

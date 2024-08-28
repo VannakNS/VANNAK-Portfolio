@@ -1,6 +1,7 @@
 import React from 'react'
 import {motion } from "framer-motion"
 import {BsArrowDownRight}from "react-icons/bs"
+import '@fontsource/jetbrains-mono'; // Defaults to weight 400
 
 
 const serviices = [
@@ -36,17 +37,17 @@ const Service =() =>{
           {serviices.map((item,index)=>{
             return (
               <div key={index} className='flex-1 flex flex-col justify-center gap-6 group '>
-                <div className=' text-[36px] lg:text-[48px] leading-[1.1] font-semibold w-full flex justify-between items-center group-hover:text-accent-DEAULT '>
+                <div className=' text-[36px] lg:text-[48px] leading-[1.1] font-semibold w-full font-jetbrains flex justify-between items-center group-hover:text-accent-DEAULT '>
                   {item.num}
               
                   <a href={item.path} className='text-[36px] max-sm:text-[22px] font-extrabold hover:-rotate-45 group-hover:bg-accent-DEAULT transition-all duration-500 bg-white p-[9px] max-sm:p-[10px] rounded-[50%] items-center'>
                     <BsArrowDownRight className='text-primary'/>
                   </a>
                   </div>
-                <h2 className='text-[42px] font-extrabold font-mono leading-none text-white hover:text-accent-DEAULT transition-all duration-500'>
+                <h2 className='text-[42px] font-extrabold font-jetbrains leading-none text-white hover:text-accent-DEAULT transition-all duration-500'>
                   {item.tital}
                 </h2>
-                <p className='text-white/60 text-[18px]'>
+                <p className='text-white/60 font-jetbrains text-[18px]'>
                   {item.description}
                 </p>
                 <div className='border-b border-white/20 w-full'></div>

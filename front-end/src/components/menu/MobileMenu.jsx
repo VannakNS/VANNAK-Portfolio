@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useResolvedPath } from 'react-router-dom';
 import { CiMenuFries } from 'react-icons/ci'; // Menu icon
 import { AiOutlineClose } from 'react-icons/ai'; // Close icon
+import '@fontsource/jetbrains-mono';
 
 const links = [
   {
@@ -35,7 +36,7 @@ const MobileMenu = () => {
   };
 
   return (
-    <nav className='text-[25px] text-accent-DEFAULT'>
+    <nav className='text-[25px] text-accent-DEFAULT font-jetbrains'>
       <button
         className='p-0 border-none m-0 items-center bg-none sticky opacity-1 top-4 right-4 z-50 text-2xl text-accent-DEAULT mt-[6px]'
         onClick={toggleMenu}

@@ -19,6 +19,9 @@ export default {
           hover: "#00e187"
         },
       },
+      fontFamily: {
+        jetbrains: ['"JetBrains Mono"', 'monospace'],
+      },
       borderColor:{
         bcl: "#00ff99"
       }
