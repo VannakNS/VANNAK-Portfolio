@@ -17,6 +17,7 @@ import login from "../../assets/login.png";
 import liginprop from "../../assets/liginprop.png";
 import wordpress from "../../assets/wp.png";
 import coursemg from "../../assets/cousremg.png";
+import pos from "../../assets/vnpos.png";
 
 const project = [
   {
@@ -103,6 +104,21 @@ const fullstack = [
         description: "In this project, I created a course management system.",
         image: coursemg,
         lague: "React with Vite",
+        lague1: "Tailwind",
+        lague2: "AntDesign",
+        lague3: "Node",
+        lague4: "MySQL",
+
+        liveHr: "",
+        gitHr: "",
+        live: <BsArrowUpRight />,
+        github: <BsGithub />,
+      },
+      {
+        name: "Starting POS System",
+        description: "In this project, I created a POS system.(Not yet)",
+        image: pos,
+        lague: "React ",
         lague1: "Tailwind",
         lague2: "AntDesign",
         lague3: "Node",
