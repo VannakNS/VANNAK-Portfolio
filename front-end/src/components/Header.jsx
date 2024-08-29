@@ -19,7 +19,7 @@ function Header() {
         <div className='hidden lg:flex items-center gap-8 text-[20px]'>
              <Nav/>
              <a href='/contact' className='' >
-             <button className='px-4 bg-accent-DEAULT text-gray-700 py-[5px] rounded-[20px] active:scale-[0.98] hover:scale-[1.08]  duration-500 cursor-pointer'>Hire me</button>
+             <button className='px-5 bg-accent-DEAULT text-gray-700 py-[7px]  rounded-[20px] active:scale-[0.98] hover:scale-[1.05]  duration-500 cursor-pointer'>Hire me</button>
              </a>
          </div>
 
