@@ -12,6 +12,7 @@ import {
   FaJs,
   FaNodeJs,
   FaWordpress,
+  FaLaravel
 } from "react-icons/fa";
 
 const about = [
@@ -78,13 +79,18 @@ const education = [
     items: [
       {
         instituation: "Online course",
+        degree: "Full Stack",
+        duration: "2024",
+      },
+      {
+        instituation: "Online course",
         degree: "Front-end",
-        duration: "2022",
+        duration: "2023",
       },
       {
         instituation: "Online Course",
-        degree: "Back-end",
-        duration: "2024",
+        degree: "Back-end with Laravel",
+        duration: "Currently Learning (2024)",
       },
       {
         instituation: "Onlinw course",

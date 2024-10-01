@@ -11,6 +11,7 @@ import Home from './components/menu/Home'
 import Resume from './components/menu/Resume'
 import Contact from './components/menu/Contact'
 import Portfolio from './components/menu/Portfolio'
+import DetailPortfolio from './components/menu/DetailPortfolio'
 const App = () => {
   return (
     <>
@@ -22,6 +23,8 @@ const App = () => {
       <Route path="/resume" element={<Resume/>}/> 
       <Route path="/contact" element={<Contact/>}/> 
       <Route path="/portfolio" element={<Portfolio/>}/>         
+      <Route path="/detail" element={<DetailPortfolio/>}/>         
+      
       </Route>
     </Routes>
     </BrowserRouter>

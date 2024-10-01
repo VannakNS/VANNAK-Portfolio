@@ -24,7 +24,7 @@ const Home = () => {
             <span className="text-accent-DEAULT">VIT VANNAK</span>
           </h1>
           <p className="mb-9 max-w-[500px] text-white/80 text-[18px]">
-           Web Developer is my passionate.For creating about my web application I used Code Languages such as Tailwind, Javascript, RactJS, NodeJS and MySql.Explore my portfolio page to see the projects I have already built.
+           Web Developer is my passionate.For creating about my web application I used Code Languages such as Tailwind, Javascript, RactJS, NodeJS, Laravel and MySql.Explore my portfolio page to see the projects I have already built.
           </p>
           <div className="flex flex-col xl:flex-row gap-8 items-center">
             <a
