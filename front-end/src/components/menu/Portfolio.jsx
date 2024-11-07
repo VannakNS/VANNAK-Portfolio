@@ -1,7 +1,6 @@
 //From react
 import React, { useState } from "react";
 
-
 //icon
 import { SiAntdesign, SiTailwindcss, SiVite, SiLabview } from "react-icons/si";
 import { BsArrowUpRight, BsGithub } from "react-icons/bs";
@@ -15,15 +14,12 @@ import {
 } from "react-icons/fa";
 import { Tab } from "@headlessui/react";
 
-
-
 //ant
 import { Modal } from "antd";
 
-
-
 //image
 import vnstore1 from "../../assets/vnstore.png";
+import dashboard from "../../assets/dashboard.png";
 import porfolio from "../../assets/porfolioMe.png";
 import login from "../../assets/login.png";
 import liginprop from "../../assets/liginprop.png";
@@ -33,12 +29,9 @@ import pos from "../../assets/vnpos.png";
 import { AiOutlineClose } from "react-icons/ai";
 import { GrMysql } from "react-icons/gr";
 
-
 //mp4
 import vncourse from "../../assets/video/vannaksys.mp4";
-
-
-
+import portfolioVD from "../../assets/video/portfolio.mp4";
 
 ///anyThing
 import { motion } from "framer-motion";
@@ -85,7 +78,7 @@ const project = [
         description:
           "This is my persional portfolio showcases my skills , including videos and detailed descriptions. Built using React and Tailwind CSS, it was completed in 60 hours and is fully responsive, ensuring an optimal experience on any device.",
         image: porfolio,
-        video: vncourse,
+        video: portfolioVD,
         liveHr: "https://vannakportfolio.tech/",
         gitHr: "https://vannakportfolio.tech/",
         live: <BsArrowUpRight />,
@@ -102,8 +95,9 @@ const project = [
         ],
         detail: [
           {
-            description:"This portfolio showcases a wide range of web development projects, demonstrating my skills in frontend and full-stack development. You can watch videos or read details about each project. I completed this portfolio in 60 hours, using technologies such as React and Tailwind CSS. It is fully responsive, providing an optimal viewing experience across all devices.",
-           responsive: `The portfolio is designed to be fully responsive, providing an optimal viewing experience across devices:
+            description:
+              "This portfolio showcases a wide range of web development projects, demonstrating my skills in frontend and full-stack development. You can watch videos or read details about each project. I completed this portfolio in 60 hours, using technologies such as React and Tailwind CSS. It is fully responsive, providing an optimal viewing experience across all devices.",
+            responsive: `The portfolio is designed to be fully responsive, providing an optimal viewing experience across devices:
   - Mobile Devices (100px - 768px): A compact, mobile-friendly interface that prioritizes readability and touch-friendly navigation. All elements are aligned to fit seamlessly, ensuring a smooth browsing experience on smaller screens.
   - Tablets (769px - 1024px): The layout expands to offer more visibility, with flexible grids and sections that adjust to medium-sized screens. This allows for an enhanced viewing experience while maintaining clear structure and usability.
   - Laptops & Desktops (1025px and above): A comprehensive view with full-screen elements, ensuring all projects and components are clearly presented with additional details and features.
@@ -152,7 +146,8 @@ const wordPress = [
       // },
       {
         name: "WORDPRESS",
-        description: "This website is also a reflection of my learning journey. WordPress offers so many possibilities, and as a first-time user, I am continuously discovering new things about the platform. I have already gained valuable experience in areas such as theme customization, plugin integration, and responsive design—skills that will only grow as I continue to develop the site. You can visit my website anytime to explore and see updates!",
+        description:
+          "This website is also a reflection of my learning journey. WordPress offers so many possibilities, and as a first-time user, I am continuously discovering new things about the platform. I have already gained valuable experience in areas such as theme customization, plugin integration, and responsive design—skills that will only grow as I continue to develop the site. You can visit my website anytime to explore and see updates!",
         image: wordpress,
         video: wordpress,
         liveHr: "https://inspiretomillion.com/",
@@ -183,9 +178,10 @@ const wordPress = [
 ];
 const mini = [
   {
-    title: "Mini Project",
+    title: "Components",
     description: "It just small component",
     realproject: [
+    
       {
         name: "LOGIN",
         description: "login component using HTML and CSS (Testing)",
@@ -242,6 +238,34 @@ const mini = [
           },
         ],
       },
+      {
+        name: "Dashboard Admin",
+        description: "Dashboard Admin using ReactJS and Tailwind (Full responsive)",
+        image: dashboard,
+        video: vncourse,
+        liveHr: "https://vannakns.github.io/LoginProp/",
+        gitHr: "https://github.com/VannakNS/LoginProp.git",
+        live: <BsArrowUpRight />,
+        github: <BsGithub />,
+        skillist: [
+          {
+            icon: <FaReact />,
+            name: "React JS",
+          },
+          {
+            icon: <SiTailwindcss />,
+            name: "Tailwind",
+          },
+        ],
+        detail: [
+          {
+            description:
+              "This is a detailed description of the VN STORE frontend project. It's an e-commerce platform showcasing React components, TailwindCSS, and essential",
+            responsive:
+              "This project is currently not responsive, but it demonstrates core frontend concepts and development skills.\n\tPHONE\n\tLAPTOP\n\tPC",
+          },
+        ],
+      },
     ],
   },
 ];
@@ -252,7 +276,8 @@ const fullstack = [
     realproject: [
       {
         name: "SYSTEM MANAGEMENT",
-        description: "System Management is a comprehensive course management platform designed to streamline the management of courses, lessons, and student information. Built using React, Node.js, and MySQL, this project showcases my full-stack development skills. It includes features for course creation, lesson editing, and feedback collection, ensuring efficient management for educators. Completed in a total of 3 months, the platform is not responsive, focusing primarily on delivering a robust experience for desktop users. This project exemplifies my ability to build dynamic web applications that cater to specific user needs in educational settings.watch for detail",
+        description:
+          "System Management is a comprehensive course management platform designed to streamline the management of courses, lessons, and student information. Built using React, Node.js, and MySQL, this project showcases my full-stack development skills. It includes features for course creation, lesson editing, and feedback collection, ensuring efficient management for educators. Completed in a total of 3 months, the platform is not responsive, focusing primarily on delivering a robust experience for desktop users. This project exemplifies my ability to build dynamic web applications that cater to specific user needs in educational settings.watch for detail",
         image: cours,
         video: vncourse,
         liveHr: "",
@@ -285,7 +310,7 @@ const fullstack = [
           {
             description:
               "The System Management project is a comprehensive course management system that showcases my skills in both frontend and backend development using React and Node.js. This application provides an intuitive interface for managing courses, students, and feedback, integrating modern design principles and user-friendly functionality.",
-            responsive:` The System Management platform is designed to provide an optimal user experience across various devices:
+            responsive: ` The System Management platform is designed to provide an optimal user experience across various devices:
   - Mobile Devices (100px - 768px): no responsive.
   - Tablets (769px - 1024px): The layout expands to enhance visibility and interaction, with a more spacious design that accommodates additional features and information. This ensures a better experience for users who need to perform more complex tasks.
   - Laptops & Desktops (1025px and above): A robust view that displays all functionalities in a comprehensive layout. Users can easily navigate through various sections, accessing detailed information and advanced features for effective course management.
@@ -416,7 +441,7 @@ const Portfolio = () => {
       <div className="container mx-auto">
         <Tab.Group className="flex max-sm:block max-md:block max-lg:block lg:flex-row gap-[60px]">
           <Tab.List className="flex flex-col w-full max-w-[290px] mx-auto lg:mx-0 gap-6 text-primary">
-            {["Mini", "Frontend", "FullStack", "WordPress"].map((tab) => (
+            {["Components", "Frontend", "FullStack", "WordPress"].map((tab) => (
               <Tab
                 key={tab}
                 className={({ selected }) =>

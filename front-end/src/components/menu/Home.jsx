@@ -32,7 +32,7 @@ const Home = () => {
               href="VIT VANNAK CV Apply for FrontEnd Developer.pdf"
               download="VIT VANNAK CV Apply for FrontEnd Developer.pdf">
               <button
-                className="text-[18px] border-accent-DEAULT   active:scale-[0.98] hover:scale-[1.05]  duration-500 cursor-pointer py-[12px] px-[18px] border-[1px] hover:bg-accent-DEAULT hover:text-primary
+                className="text-[18px] border-accent-DEAULT   duration-500 cursor-pointer py-[12px] px-[18px] border-[1px] hover:bg-accent-DEAULT hover:text-primary
 rounded-[12px] flex mx-auto items-center justify-center gap-[8px]"
                 onClick={handleDownload}>
                 Download CV <LuDownload />

@@ -6,7 +6,7 @@ const states = [
     text: "Years of experience",
   },
   {
-    num: 7,
+    num: 4,
     text: "Projects completed",
   },
   {

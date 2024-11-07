@@ -46,7 +46,8 @@ const project = [
 
 const DetailPortfolio = () => {
   return (
-    <PropDetail project={project} />
+    <div>f</div>
+    // <PropDetail project={project} />
   );
 };
 

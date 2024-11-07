@@ -82,7 +82,7 @@ const ContactInfo = () => {
                 <textarea className="flex min-h-[80px] w-full rounded-md border border-white/10 bg-primary px-4 py-5 text-base placeholder:text-white/60 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-accent focus-visible:ring-offset-0 disabled:cursor-not-allowed disabled:opacity-50">
 
                 </textarea>
-                <button className="max-w-40 active:scale-[0.98] hover:scale-[1.05]  duration-500 cursor-pointer border-2 outline-1 hover:bg-accent-hover hover:text-primary hover:font-bold border-accent-DEAULT py-[10px] rounded-[17px] bg-primary text-center justify-center items-center text-white/80 text-[16px]">
+                <button className="max-w-40   duration-500 cursor-pointer border-2 outline-1 hover:bg-accent-hover hover:text-primary hover:font-bold border-accent-DEAULT py-[10px] rounded-[17px] bg-primary text-center justify-center items-center text-white/80 text-[16px]">
                     Send message
                 </button>
             </form>
